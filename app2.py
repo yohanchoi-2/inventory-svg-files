@@ -29,21 +29,21 @@ def resource_path(relative_path):
 
 # 앱 버전 정보
 APP_VERSION = "1.0.0"  # 코드 변경 시 이 버전을 증가시켜야 함
-APP_UPDATE_CHECK_URL = "https://inpyohongb.github.io/inventory-svg-files/app_version.json"
-APP_DOWNLOAD_URL = "https://inpyohongb.github.io/inventory-svg-files/app/"
+APP_UPDATE_CHECK_URL = "https://yohanchoi-2.github.io/inventory-svg-files/app_version.json"
+APP_DOWNLOAD_URL = "https://yohanchoi-2.github.io/inventory-svg-files/app/"
 
 # SVG 버전 관리를 위한 설정
-SVG_REPOSITORY_URL = "https://inpyohongb.github.io/inventory-svg-files/svg"
+SVG_REPOSITORY_URL = "https://yohanchoi-2.github.io/inventory-svg-files/svg"
 SVG_LOCAL_DIR = os.path.join(os.path.expanduser("~"), ".inventory_viewer", "svg")
-VERSION_CHECK_URL = "https://inpyohongb.github.io/inventory-svg-files/version.json"
+VERSION_CHECK_URL = "https://yohanchoi-2.github.io/inventory-svg-files/version.json"
 
 # 템플릿 파일 동적 로드를 위한 설정 (기존 version.json 사용)
-TEMPLATE_REPOSITORY_URL = "https://inpyohongb.github.io/inventory-svg-files/templates"
+TEMPLATE_REPOSITORY_URL = "https://yohanchoi-2.github.io/inventory-svg-files/templates"
 TEMPLATE_LOCAL_DIR = os.path.join(os.path.expanduser("~"), ".inventory_viewer", "templates")
 # 템플릿도 루트의 version.json에서 확인 (SVG와 동일)
 
 # Static 파일 동적 로드를 위한 설정
-STATIC_REPOSITORY_URL = "https://inpyohongb.github.io/inventory-svg-files/static"
+STATIC_REPOSITORY_URL = "https://yohanchoi-2.github.io/inventory-svg-files/static"
 STATIC_LOCAL_DIR = os.path.join(os.path.expanduser("~"), ".inventory_viewer", "static")
 
 # Static 디렉토리 생성 (Flask가 static 파일을 찾을 수 있도록)
